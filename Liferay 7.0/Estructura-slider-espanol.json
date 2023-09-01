@@ -1,0 +1,257 @@
+{
+    "availableLanguageIds": [
+        "es_ES"
+    ],
+    "defaultLanguageId": "es_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": "Titulo"
+            },
+            "predefinedValue": {
+                "es_ES": ""
+            },
+            "style": {
+                "es_ES": ""
+            },
+            "tip": {
+                "es_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "titulo",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": "Texto de introducción"
+            },
+            "predefinedValue": {
+                "es_ES": ""
+            },
+            "style": {
+                "es_ES": ""
+            },
+            "tip": {
+                "es_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "textInfo",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": "Icono"
+            },
+            "predefinedValue": {
+                "es_ES": ""
+            },
+            "style": {
+                "es_ES": ""
+            },
+            "tip": {
+                "es_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "icono",
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": "Seleccione un icono"
+                    },
+                    "options": [
+                        {
+                            "value": "Search",
+                            "label": {
+                                "es_ES": "Search"
+                            }
+                        },
+                        {
+                            "value": "Home",
+                            "label": {
+                                "es_ES": "Home"
+                            }
+                        },
+                        {
+                            "value": "Menu",
+                            "label": {
+                                "es_ES": "Menu"
+                            }
+                        },
+                        {
+                            "value": "Close",
+                            "label": {
+                                "es_ES": "Close"
+                            }
+                        },
+                        {
+                            "value": "Settings",
+                            "label": {
+                                "es_ES": "Settings"
+                            }
+                        },
+                        {
+                            "value": "Done",
+                            "label": {
+                                "es_ES": "Done"
+                            }
+                        },
+                        {
+                            "value": "Expand More",
+                            "label": {
+                                "es_ES": "Expand More"
+                            }
+                        },
+                        {
+                            "value": "Check Circle",
+                            "label": {
+                                "es_ES": "Check Circle"
+                            }
+                        },
+                        {
+                            "value": "Favorite",
+                            "label": {
+                                "es_ES": "Favorite"
+                            }
+                        },
+                        {
+                            "value": "Add",
+                            "label": {
+                                "es_ES": "Add"
+                            }
+                        },
+                        {
+                            "value": "Delete",
+                            "label": {
+                                "es_ES": "Delete"
+                            }
+                        },
+                        {
+                            "value": "Star",
+                            "label": {
+                                "es_ES": "Star"
+                            }
+                        },
+                        {
+                            "value": "Logout",
+                            "label": {
+                                "es_ES": "Logout"
+                            }
+                        },
+                        {
+                            "value": "Cancel",
+                            "label": {
+                                "es_ES": "Cancel"
+                            }
+                        },
+                        {
+                            "value": "Check",
+                            "label": {
+                                "es_ES": "Check"
+                            }
+                        },
+                        {
+                            "value": "Grade",
+                            "label": {
+                                "es_ES": "Grade"
+                            }
+                        },
+                        {
+                            "value": "Refresh",
+                            "label": {
+                                "es_ES": "Refresh"
+                            }
+                        },
+                        {
+                            "value": "Login",
+                            "label": {
+                                "es_ES": "Login"
+                            }
+                        },
+                        {
+                            "value": "Apps",
+                            "label": {
+                                "es_ES": "Apps"
+                            }
+                        },
+                        {
+                            "value": "Download",
+                            "label": {
+                                "es_ES": "Download"
+                            }
+                        },
+                        {
+                            "value": "Remove",
+                            "label": {
+                                "es_ES": "Remove"
+                            }
+                        }
+                    ],
+                    "predefinedValue": {
+                        "es_ES": [
+                            ""
+                        ]
+                    },
+                    "style": {
+                        "es_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "multiple": false,
+                    "name": "selectIcon",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "select"
+                },
+                {
+                    "label": {
+                        "es_ES": "Nombre de icono"
+                    },
+                    "predefinedValue": {
+                        "es_ES": ""
+                    },
+                    "style": {
+                        "es_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "En caso de no encontrar el icono que desea en la lista, puede escribirlo a continuación. Recuerde que la libreria de iconos pertenece a la lista de Material Icons en su ultima versión de \"Material Symbols\""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "iconName",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        }
+    ]
+}
