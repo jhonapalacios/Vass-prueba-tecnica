@@ -26,9 +26,12 @@ En esta carpeta contamos con:
 
 En esta carpeta contamos con:
 
-  - **Carpeta de resultado:** En esta carpeta se encuentran los screenshot de cada pantalla una vez la prueba estuv resulta en el esta versión de liferay.
-  - **Carperta de Versión Ingles:** Cuenta con la estructura y la plantilla en idioma ingles,  para así mismo importarla en un servidor basado en éste idioma.
-  - **Carperta de Versión Español:** Cuenta con la estructura y la plantilla en idioma español, para así mismo importarla en un servidor basado en éste idioma.
+  - Archivo JSON de estructura de slider para un portal liferay 7.0 en Español
+  - Archivo JSON de estructura de slider para un portal liferay 7.0 en Ingles
+  - Template de la estructura en freemarker
+
+
+Tener en cuenta que la imagen de background se debe cargar a los documentos multimedi dle portal y hacer el respectivo llamado en el template. Esto aplica para ambas versiones de liferay.
 
 
 Jhonatan Palacios Marroquín
